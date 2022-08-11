@@ -1,0 +1,3 @@
+def person_info(name, surname, year_of_birth, city, email, tlph_number):
+    print(f'Информация о пользователе: имя - {name}, фамилия - {surname}, год рождения - {year_of_birth}, город проживания - {city}, email - {email}, телефон - {tlph_number} ')
+person_info(input('Введите имя пользователя: '),input('Введите фамилию пользователя: '), input('Введите год рождения: '), input('Введите город проживания пользователя: '), input('Введите адрес эл. почты пользователя: '), input('Введите телефон пользователя: '))
